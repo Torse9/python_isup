@@ -13,7 +13,7 @@ def startup():
 			x = raw_input("> ")
 
 		if x == "help":
-			pass
+			print("Available Commands: \nisup\n\n More information:\n Use http://. \n WARNING: python will not check if https\n is legitimate, use on own risk")
 
 		elif x == "isup":
 			z = raw_input("url here:\n> ")
